@@ -1,0 +1,62 @@
+2026-03-07 14:13:33,328 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 14:13:33,328 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你好
+2026-03-07 14:14:18,228 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 14:14:18,231 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你好
+2026-03-07 14:15:17,904 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 14:15:17,905 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你好呀
+2026-03-07 14:15:25,197 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 14:15:25,200 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你好
+2026-03-07 18:14:45,638 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 18:14:45,650 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你好
+2026-03-07 18:15:07,846 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 18:15:07,846 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你好
+2026-03-07 18:21:16,585 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 18:21:16,587 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你好
+2026-03-07 18:22:31,316 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 18:22:31,317 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 如何清洁
+2026-03-07 18:26:32,722 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 18:26:32,723 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你好
+2026-03-07 18:26:42,475 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 18:26:42,475 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 怎么清洁
+2026-03-07 18:26:44,300 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-07 18:26:44,301 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人日常清洁方法'}
+2026-03-07 18:26:47,940 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-07 18:26:48,395 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-07 18:26:48,396 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 扫地机器人日常清洁方法包括：清空集尘盒、清理滚刷和边刷上的缠绕物、擦拭传感器和充电触点、检查并清理轮子缝隙中的杂物。
+2026-03-07 18:28:47,571 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 18:28:47,571 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 机器人迷路了怎么办
+2026-03-07 18:28:49,177 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_troubleshooting_guide
+2026-03-07 18:28:49,178 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'problem': '机器人迷路'}
+2026-03-07 18:28:49,179 - agent - INFO - middleware.py:24 - [tool monitor]工具get_troubleshooting_guide调用成功
+2026-03-07 18:28:49,395 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-07 18:28:49,395 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 故障：机器人迷路
+解决方案：
+请提供更具体的故障描述，或联系客服获取帮助
+2026-03-07 18:28:52,590 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-07 18:28:52,592 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人迷路原因和解决方法'}
+2026-03-07 18:28:58,713 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-07 18:28:59,523 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-07 18:28:59,524 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 扫地机器人迷路的主要原因包括：工作区域内光线过强或过暗影响视觉导航、地面反光干扰传感器、环境杂乱导致路径规划受阻、地图数据丢失或未保存、以及传感器被灰尘遮挡。解决方法有：保持环境整洁、避免强光直射、定期清洁传感器、确保机器人成功回充以保存地图、在复杂区域设置虚拟墙或禁区辅助导航。
+2026-03-07 18:31:12,492 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 18:31:12,492 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 扫地机器人电池续航多久
+2026-03-07 18:31:14,728 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-07 18:31:14,730 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人电池续航时间'}
+2026-03-07 18:31:18,410 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-07 18:31:18,761 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-07 18:31:18,762 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 扫地机器人电池续航时间通常在60至120分钟之间，具体时长因品牌、型号及使用环境而异。
+2026-03-07 18:43:40,223 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 18:43:40,223 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 扫地机器人的噪音大吗
+2026-03-07 18:43:42,918 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-07 18:43:42,920 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人噪音水平'}
+2026-03-07 18:43:45,539 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-07 18:43:45,768 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-07 18:43:45,769 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 扫地机器人噪音水平通常在50-70分贝之间，具体数值因品牌和型号而异。
+2026-03-07 18:49:34,441 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 18:49:34,443 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 扫地机器人迷路了怎么办
+2026-03-07 18:49:49,059 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-07 18:49:49,059 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 如何清洁扫地机器人
+2026-03-07 18:49:51,366 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-07 18:49:51,367 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人清洁方法'}
+2026-03-07 18:49:55,147 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-07 18:49:55,628 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-07 18:49:55,629 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 扫地机器人清洁方法包括定期清理尘盒、擦拭传感器、清理滚刷和边刷上的缠绕物，并检查轮子是否被异物卡住。部分机型支持自动集尘或拖地功能，需根据说明书进行维护。
